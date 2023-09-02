@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_jtBiEEXBEe696s4KoAQyMw" label="e-commerce_data" description="" language="java" technicalLabel="E_COMMERCE_DATA" local="true" author="_jtBiEUXBEe696s4KoAQyMw" productVersion="Talend Open Studio for Data Integration-8.0.1.20211109_1610" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_WCV8sEZvEe6-fJ71yANcuw" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_WCfGoEZvEe6-fJ71yANcuw" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_WCfGoUZvEe6-fJ71yANcuw" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_WCfGokZvEe6-fJ71yANcuw" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_Wis3wEZvEe6-fJ71yANcuw" name="DI|tAccessOutputBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_Wis3wUZvEe6-fJ71yANcuw" name="DI|tAccessBulkExec" family="Databases/DB Specifics/Access"/>
+    <migrationTask xmi:id="_jtVrIEXBEe696s4KoAQyMw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_jtBiEUXBEe696s4KoAQyMw" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

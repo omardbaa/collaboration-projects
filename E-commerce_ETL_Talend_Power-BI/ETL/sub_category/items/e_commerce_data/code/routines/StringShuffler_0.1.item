@@ -1,0 +1,24 @@
+package routines;
+
+import java.util.Random;
+
+public class StringShuffler {
+
+    public static String shuffle(String input) {
+        char[] chars = input.toCharArray();
+        Random random = new Random();
+
+        for (int i = chars.length - 1; i > 0; i--) {
+            int j = random.nextInt(i + 1);
+            if (j != i) {
+                char temp = chars[i];
+                chars[i] = chars[j];
+                chars[j] = temp;
+            }
+        }
+
+      
+        String shuffledString = new String(chars);
+        return shuffledString.trim();
+     }
+}

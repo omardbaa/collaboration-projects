@@ -1,0 +1,336 @@
+[ {
+  "baseItem" : {
+    "id" : "_8hvFc0l9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimCountry",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimGender",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastLoginDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastPurchaseDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimPurchaseFrequency",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSignUpDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSourceType",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserSegment",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserStatus",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFcEl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ECOMMERCE:_8hvFc0l9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFcUl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Lz7bcEXAEe60tKpwrION7Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw - json_data",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw - csv_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFckl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_8hvFcUl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Encryption",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringShuffler",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_8hvFckl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFdUl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_8hvFcUl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "E_COMMERCE_DATA:_8hvFckl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DE0R4EgTEe6tzK-fn58eXg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_P2vQ4EaBEe6wCOsNc4AUeg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_P2vQ4EaBEe6wCOsNc4AUeg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_syPaIEXBEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Encryption",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringShuffler",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WPIEAEiqEe6idIQoyM0tCQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_DE0R4EgTEe6tzK-fn58eXg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimCountry",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimGender",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastLoginDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastPurchaseDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimPurchaseFrequency",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSignUpDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSourceType",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSubCategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUser",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserSegment",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserStatus",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WdV8AEaCEe6wCOsNc4AUeg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_P2vQ4EaBEe6wCOsNc4AUeg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "E_COMMERCE_DATA:_syPaIEXBEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ewTvMEjcEe6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_DE0R4EgTEe6tzK-fn58eXg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vFV8kEjfEe6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimCategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vFV8kEjfEe6uh8T3VN1CyQ - dim_sub_cat",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_syPaIEXBEe696s4KoAQyMw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw - json_data",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw - csv_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yJ_K8EkvEe6Pi5Tla-_86w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ECOMMERCE:_8hvFc0l9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE:_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+} ]

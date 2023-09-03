@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_GIcqoEZVEe6fmYjTFbVWMQ" name="stage_area" id="_KSXfoEZQEe6fmYjTFbVWMQ" label="stage_area" dataPackage="_XuOm0EZbEe6-fJ71yANcuw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://LAPTOP-QRK184LV:1433/ecommerce_staging_area;" dbVersionString="JTDS" Port="1433" Username="omar" Password="enc:system.encryption.key.v1:Xk+miIoSpY8mcRq8z4P6lQQDDPOA+XnGLDefSTUO9n8=" ServerName="LAPTOP-QRK184LV" DatasourceName="" FileFieldName="" SID="ecommerce_staging_area" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_GIcqoEZVEe6fmYjTFbVWMQ" name="stage_area" id="_KSXfoEZQEe6fmYjTFbVWMQ" label="stage_area" dataPackage="_XuOm0EZbEe6-fJ71yANcuw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://LAPTOP-QRK184LV:1433/ecommerce_staging_area;" dbVersionString="JTDS" Port="1433" Username="omar" Password="enc:system.encryption.key.v1:OcCNd5R1YsGxkWBWj9/U0Qtqr6lBCgXIuq3WH8bFXvc=" ServerName="LAPTOP-QRK184LV" DatasourceName="" FileFieldName="" SID="ecommerce_staging_area" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_GIwzsEZVEe6fmYjTFbVWMQ" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_GKyM8EZVEe6fmYjTFbVWMQ" tag="package filter" value=""/>
     <taggedValue xmi:id="_GLKncEZVEe6fmYjTFbVWMQ" tag="Status" value=""/>
@@ -16,15 +16,6 @@
     <parameters xmi:id="_T3RyIEZVEe6-fJ71yANcuw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_XuOm0EZbEe6-fJ71yANcuw" name="ecommerce_staging_area" dataManager="_GIcqoEZVEe6fmYjTFbVWMQ">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm0UZbEe6-fJ71yANcuw" name="db_accessadmin"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm0kZbEe6-fJ71yANcuw" name="db_backupoperator"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm00ZbEe6-fJ71yANcuw" name="db_datareader"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm1EZbEe6-fJ71yANcuw" name="db_datawriter"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm1UZbEe6-fJ71yANcuw" name="db_ddladmin"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm1kZbEe6-fJ71yANcuw" name="db_denydatareader"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm10ZbEe6-fJ71yANcuw" name="db_denydatawriter"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm2EZbEe6-fJ71yANcuw" name="db_owner"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm2UZbEe6-fJ71yANcuw" name="db_securityadmin"/>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm2kZbEe6-fJ71yANcuw" name="dbo">
       <ownedElement xsi:type="relational:TdTable" xmi:id="_jZ1pYUcLEe6FSL9Uu5L-xA" name="ecommerce_data" id="_jZ1pYEcLEe6FSL9Uu5L-xA" label="ecommerce_data" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_jZ1pYkcLEe6FSL9Uu5L-xA" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
@@ -154,8 +145,17 @@
         </feature>
       </ownedElement>
     </ownedElement>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm20ZbEe6-fJ71yANcuw" name="guest"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm3EZbEe6-fJ71yANcuw" name="INFORMATION_SCHEMA"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_XuOm3UZbEe6-fJ71yANcuw" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFgEpIEe6Xyd1axbdkZg" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFgUpIEe6Xyd1axbdkZg" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFgkpIEe6Xyd1axbdkZg" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFg0pIEe6Xyd1axbdkZg" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFhEpIEe6Xyd1axbdkZg" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFhUpIEe6Xyd1axbdkZg" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFhkpIEe6Xyd1axbdkZg" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFh0pIEe6Xyd1axbdkZg" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFiEpIEe6Xyd1axbdkZg" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFiUpIEe6Xyd1axbdkZg" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFikpIEe6Xyd1axbdkZg" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_JJXFi0pIEe6Xyd1axbdkZg" name="sys"/>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

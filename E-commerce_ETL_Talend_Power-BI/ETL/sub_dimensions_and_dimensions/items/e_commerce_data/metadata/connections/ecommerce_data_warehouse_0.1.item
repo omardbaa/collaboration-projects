@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_aEUcAEZ9Ee6-fJ71yANcuw" name="ecommerce_data_warehouse" id="_7sJOkEZ6Ee6-fJ71yANcuw" label="ecommerce_data_warehouse" dataPackage="_aLwgwEZ9Ee6-fJ71yANcuw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://LAPTOP-QRK184LV:1433/ecommerce_data_warehouse;" dbVersionString="JTDS" Port="1433" Username="omar" Password="enc:system.encryption.key.v1:gQ/YPXBbVifRMyx/WW41q8RUk4STKmtoquaKReVvzKs=" ServerName="LAPTOP-QRK184LV" DatasourceName="" FileFieldName="" SID="ecommerce_data_warehouse" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_aEUcAEZ9Ee6-fJ71yANcuw" name="ecommerce_data_warehouse" id="_7sJOkEZ6Ee6-fJ71yANcuw" label="ecommerce_data_warehouse" dataPackage="_aLwgwEZ9Ee6-fJ71yANcuw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://LAPTOP-QRK184LV:1433/ecommerce_data_warehouse;" dbVersionString="JTDS" Port="1433" Username="omar" Password="enc:system.encryption.key.v1:nX7q1FfWslPZIcaSla8t3In6sjzcP6kEFknMy9B+7Ys=" ServerName="LAPTOP-QRK184LV" DatasourceName="" FileFieldName="" SID="ecommerce_data_warehouse" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_aEUcAUZ9Ee6-fJ71yANcuw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_aHcogEZ9Ee6-fJ71yANcuw" tag="package filter" value=""/>
     <taggedValue xmi:id="_aHiIEEZ9Ee6-fJ71yANcuw" tag="Status" value=""/>
@@ -13,17 +13,9 @@
     <taggedValue xmi:id="_aIyFQUZ9Ee6-fJ71yANcuw" tag="DB ProductVersion" value="16.00.1000"/>
     <taggedValue xmi:id="_aIyFQkZ9Ee6-fJ71yANcuw" tag="DB IdentifierQuoteString" value="&quot;"/>
     <parameters xmi:id="_aEUcAkZ9Ee6-fJ71yANcuw" key="CONN_PARA_KEY_USERNAME" value="omar"/>
+    <parameters xmi:id="_KaNpYEpIEe6Xyd1axbdkZg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_aLwgwEZ9Ee6-fJ71yANcuw" name="ecommerce_data_warehouse" dataManager="_aEUcAEZ9Ee6-fJ71yANcuw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgwUZ9Ee6-fJ71yANcuw" name="db_accessadmin"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgwkZ9Ee6-fJ71yANcuw" name="db_backupoperator"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgw0Z9Ee6-fJ71yANcuw" name="db_datareader"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgxEZ9Ee6-fJ71yANcuw" name="db_datawriter"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgxUZ9Ee6-fJ71yANcuw" name="db_ddladmin"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgxkZ9Ee6-fJ71yANcuw" name="db_denydatareader"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgx0Z9Ee6-fJ71yANcuw" name="db_denydatawriter"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgyEZ9Ee6-fJ71yANcuw" name="db_owner"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgyUZ9Ee6-fJ71yANcuw" name="db_securityadmin"/>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgykZ9Ee6-fJ71yANcuw" name="dbo">
       <ownedElement xsi:type="relational:TdTable" xmi:id="_Kt1goUgyEe6tzK-fn58eXg" name="DimCity" id="_Kt1goEgyEe6tzK-fn58eXg" label="DimCity" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_Kt1gokgyEe6tzK-fn58eXg" name="city" label="city" length="255" sourceType="VARCHAR" talendType="id_String" nullable="false">
@@ -271,8 +263,17 @@
         </feature>
       </ownedElement>
     </ownedElement>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgy0Z9Ee6-fJ71yANcuw" name="guest"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgzEZ9Ee6-fJ71yANcuw" name="INFORMATION_SCHEMA"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aLwgzUZ9Ee6-fJ71yANcuw" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegoEpIEe6Xyd1axbdkZg" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegoUpIEe6Xyd1axbdkZg" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegokpIEe6Xyd1axbdkZg" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVego0pIEe6Xyd1axbdkZg" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegpEpIEe6Xyd1axbdkZg" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegpUpIEe6Xyd1axbdkZg" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegpkpIEe6Xyd1axbdkZg" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegp0pIEe6Xyd1axbdkZg" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegqEpIEe6Xyd1axbdkZg" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegqUpIEe6Xyd1axbdkZg" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegqkpIEe6Xyd1axbdkZg" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NVegq0pIEe6Xyd1axbdkZg" name="sys"/>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

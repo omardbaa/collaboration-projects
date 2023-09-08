@@ -1,0 +1,260 @@
+[ {
+  "baseItem" : {
+    "id" : "_7RkgAEycEe6Oc5P00GXMVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DATA_ECOMMERCE_XYZ_CORP:_P0ikEEy5Ee67O4BsYdsfRg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimCustomer",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimLastStockDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimOrderDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimProduct",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimShippingMethod",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimStatus",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimSupplier",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimWarehouse",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ - EcommerceXYZCorpCleaned",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFc0l9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "E_COMMERCE_DATA:_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimCountry",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimGender",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastLoginDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimLastPurchaseDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimPurchaseFrequency",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSignUpDate",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimSourceType",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserSegment",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw - DimUserStatus",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFcEl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ECOMMERCE:_8hvFc0l9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8hvFcUl9Ee6uh8T3VN1CyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-XCRIEXCEe696s4KoAQyMw - json_data",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_T2k74EXDEe696s4KoAQyMw - csv_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_P0ikEEy5Ee67O4BsYdsfRg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DATA_ECOMMERCE_XYZ_CORP:_zsRikEycEe6Oc5P00GXMVA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimCompany",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ - EcommerceXYZCorpCleaned",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oHEF0E1TEe6KyrLmZBOhtw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DATA_ECOMMERCE_XYZ_CORP:_7RkgAEycEe6Oc5P00GXMVA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw - DimSupplier",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ppBJ0EwsEe6Oc5P00GXMVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DATA_ECOMMERCE_XYZ_CORP:_8hvFcUl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Encryption",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ - ecommerce_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yJ_K8EkvEe6Pi5Tla-_86w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ECOMMERCE:_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "E_COMMERCE_DATA:_8hvFdEl9Ee6uh8T3VN1CyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_7sJOkEZ6Ee6-fJ71yANcuw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zsRikEycEe6Oc5P00GXMVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DATA_ECOMMERCE_XYZ_CORP:_ppBJ0EwsEe6Oc5P00GXMVA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1Md4kEtgEe6NXrUWjR8-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KSXfoEZQEe6fmYjTFbVWMQ - EcommerceXYZCorpCleaned",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
